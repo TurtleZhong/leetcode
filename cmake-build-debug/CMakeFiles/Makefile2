@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/m/leetcode
 CMAKE_BINARY_DIR = /home/m/leetcode/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/695_Max_Area_of_Island.dir
+
+# All Build rule for target.
+CMakeFiles/695_Max_Area_of_Island.dir/all:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/depend
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 695_Max_Area_of_Island"
+.PHONY : CMakeFiles/695_Max_Area_of_Island.dir/all
+
+# Include target in all.
+all: CMakeFiles/695_Max_Area_of_Island.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/695_Max_Area_of_Island.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/695_Max_Area_of_Island.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/695_Max_Area_of_Island.dir/rule
+
+# Convenience name for target.
+695_Max_Area_of_Island: CMakeFiles/695_Max_Area_of_Island.dir/rule
+
+.PHONY : 695_Max_Area_of_Island
+
+# clean rule for target.
+CMakeFiles/695_Max_Area_of_Island.dir/clean:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/clean
+.PHONY : CMakeFiles/695_Max_Area_of_Island.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/695_Max_Area_of_Island.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/485_Max_Consecutive_Ones.dir
 
 # All Build rule for target.
@@ -140,7 +177,7 @@ clean: CMakeFiles/566_Reshape_the_Matrix.dir/clean
 CMakeFiles/766_Toeplitz_Matrix.dir/all:
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/depend
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 766_Toeplitz_Matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 766_Toeplitz_Matrix"
 .PHONY : CMakeFiles/766_Toeplitz_Matrix.dir/all
 
 # Include target in all.

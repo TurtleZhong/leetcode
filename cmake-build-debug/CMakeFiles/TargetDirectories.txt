@@ -1,4 +1,5 @@
 /home/m/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/m/leetcode/cmake-build-debug/CMakeFiles/695_Max_Area_of_Island.dir
 /home/m/leetcode/cmake-build-debug/CMakeFiles/485_Max_Consecutive_Ones.dir
 /home/m/leetcode/cmake-build-debug/CMakeFiles/566_Reshape_the_Matrix.dir
 /home/m/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 695_Max_Area_of_Island
+
+# Build rule for target.
+695_Max_Area_of_Island: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 695_Max_Area_of_Island
+.PHONY : 695_Max_Area_of_Island
+
+# fast build rule for target.
+695_Max_Area_of_Island/fast:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
+.PHONY : 695_Max_Area_of_Island/fast
+
+#=============================================================================
 # Target rules for targets named 485_Max_Consecutive_Ones
 
 # Build rule for target.
@@ -243,6 +256,33 @@ array/566_Reshape_the_Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/566_Reshape_the_Matrix.dir/build.make CMakeFiles/566_Reshape_the_Matrix.dir/array/566_Reshape_the_Matrix.cpp.s
 .PHONY : array/566_Reshape_the_Matrix.cpp.s
 
+array/695_Max_Area_of_Island.o: array/695_Max_Area_of_Island.cpp.o
+
+.PHONY : array/695_Max_Area_of_Island.o
+
+# target to build an object file
+array/695_Max_Area_of_Island.cpp.o:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/array/695_Max_Area_of_Island.cpp.o
+.PHONY : array/695_Max_Area_of_Island.cpp.o
+
+array/695_Max_Area_of_Island.i: array/695_Max_Area_of_Island.cpp.i
+
+.PHONY : array/695_Max_Area_of_Island.i
+
+# target to preprocess a source file
+array/695_Max_Area_of_Island.cpp.i:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/array/695_Max_Area_of_Island.cpp.i
+.PHONY : array/695_Max_Area_of_Island.cpp.i
+
+array/695_Max_Area_of_Island.s: array/695_Max_Area_of_Island.cpp.s
+
+.PHONY : array/695_Max_Area_of_Island.s
+
+# target to generate assembly for a file
+array/695_Max_Area_of_Island.cpp.s:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/array/695_Max_Area_of_Island.cpp.s
+.PHONY : array/695_Max_Area_of_Island.cpp.s
+
 array/766_Toeplitz_Matrix.o: array/766_Toeplitz_Matrix.cpp.o
 
 .PHONY : array/766_Toeplitz_Matrix.o
@@ -277,6 +317,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... 695_Max_Area_of_Island"
 	@echo "... 485_Max_Consecutive_Ones"
 	@echo "... 566_Reshape_the_Matrix"
 	@echo "... rebuild_cache"
@@ -291,6 +332,9 @@ help:
 	@echo "... array/566_Reshape_the_Matrix.o"
 	@echo "... array/566_Reshape_the_Matrix.i"
 	@echo "... array/566_Reshape_the_Matrix.s"
+	@echo "... array/695_Max_Area_of_Island.o"
+	@echo "... array/695_Max_Area_of_Island.i"
+	@echo "... array/695_Max_Area_of_Island.s"
 	@echo "... array/766_Toeplitz_Matrix.o"
 	@echo "... array/766_Toeplitz_Matrix.i"
 	@echo "... array/766_Toeplitz_Matrix.s"
