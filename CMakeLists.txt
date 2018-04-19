@@ -19,3 +19,4 @@ add_executable(695_Max_Area_of_Island array/695_Max_Area_of_Island.cpp)
 
 add_executable(list_node_test array/list_node_test.cpp)
 add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
+add_executable(92_Reverse_Linked_List_II linked_list/92_Reverse_Linked_List_II.cpp)

@@ -7,13 +7,16 @@
 #include <iostream>
 #include "list_node.h"
 using namespace std;
+typedef Node<int> ListNode;
 
 
-ListNode<int>* reverseList(ListNode<int>* head)
+ListNode* reverseList(ListNode* head)
 {
-    ListNode<int> *p = head;
-    ListNode<int> *q = p->next;
-    ListNode<int> *r = q->next;
+    if(head == nullptr || head->next == nullptr)
+        return head;
+    ListNode *p = head;
+    ListNode *q = p->next;
+    ListNode *r = q->next;
 
     p->setNext(nullptr);
     while (q->next != nullptr)
@@ -27,25 +30,37 @@ ListNode<int>* reverseList(ListNode<int>* head)
     return q;
 }
 
+ListNode* reserveList2(ListNode* head)
+{
+    if(head == nullptr || head->next == nullptr)
+        return head;
+    ListNode *new_head = reserveList2(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return new_head;
+}
+
 
 int main()
 {
     /*insert data check*/
     int data[10]={0,1,2,3,4,5,6,7,8,9};
-    ListNode<int> *list = new ListNode<int>(data[0]);
-    ListNode<int> *pre_node = list;
+    ListNode *list = new ListNode(data[0]);
+    ListNode *pre_node = list;
     for (int j = 1; j < 10; ++j)
     {
-        ListNode<int> *tmp = new ListNode<int>(data[j]);
+        ListNode *tmp = new ListNode(data[j]);
         pre_node->setNext(tmp);
         pre_node = pre_node->next;
 
     }
 
-    ListNode<int> *reserve_list = reverseList(list);
+//    ListNode *reserve_list = reverseList(list);
+    ListNode *reserve_list1 = reserveList2(list);
 
 
-    ListNode<int> *list_copy = reserve_list;
+
+    ListNode *list_copy = reserve_list1;
     while(list_copy->next)
     {
         list_copy->printData();
@@ -54,7 +69,7 @@ int main()
     list_copy->printData();
 
 
-//    LinkList<int> *list_node = new LinkList<int>;
+//    LinkList *list_node = new LinkList;
 //    for(int i=0;i<5;i++)
 //    {
 //        list_node->ListInsert(i,data[i]);

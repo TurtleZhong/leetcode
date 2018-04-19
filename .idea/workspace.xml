@@ -7,20 +7,19 @@
       <config projectName="leetcode" targetName="766_Toeplitz_Matrix" />
       <config projectName="leetcode" targetName="566_Reshape_the_Matrix" />
       <config projectName="leetcode" targetName="561_array_partition1" />
+      <config projectName="leetcode" targetName="92_Reverse_Linked_List_II" />
       <config projectName="leetcode" targetName="list_node_test" />
       <config projectName="leetcode" targetName="695_Max_Area_of_Island" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71dee7a-f3f6-415a-87c2-c001cf01fbe0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/list_node_test.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/list_node.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linked_list/92_Reverse_Linked_List_II.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/485_Max_Consecutive_Ones.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/485_Max_Consecutive_Ones.dir/progress.make" />
@@ -33,6 +32,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode.cbp" />
+      <change beforePath="$PROJECT_DIR$/include/list_node.h" afterPath="$PROJECT_DIR$/include/list_node.h" />
+      <change beforePath="$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp" afterPath="$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,30 +49,32 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="483">
+              <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="485_Max_Consecutive_Ones.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/485_Max_Consecutive_Ones.cpp">
+      <file leaf-file-name="206_Reverse_Linked_List.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="695_Max_Area_of_Island.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/695_Max_Area_of_Island.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2277">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#743#762#0" expanded="true" />
+                <element signature="e#145#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="92_Reverse_Linked_List_II.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linked_list/92_Reverse_Linked_List_II.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#199#218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,53 +83,29 @@
       <file leaf-file-name="list_node.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/list_node.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="44">
+              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#146#158#0" expanded="true" />
-                <element signature="e#424#436#0" expanded="true" />
-                <element signature="e#507#519#0" expanded="true" />
-                <element signature="e#602#614#0" expanded="true" />
-                <element signature="e#684#696#0" expanded="true" />
-                <element signature="e#762#774#0" expanded="true" />
-                <element signature="e#831#843#0" expanded="true" />
-                <element signature="e#926#938#0" expanded="true" />
-                <element signature="e#1006#1018#0" expanded="true" />
-                <element signature="e#1213#1225#0" expanded="true" />
-                <element signature="e#1691#1703#0" expanded="true" />
-                <element signature="e#1846#1858#0" expanded="true" />
-                <element signature="e#2182#2194#0" expanded="true" />
-                <element signature="e#2302#2314#0" expanded="true" />
-                <element signature="e#2841#2853#0" expanded="true" />
-                <element signature="e#2922#2934#0" expanded="true" />
-                <element signature="e#3206#3218#0" expanded="true" />
-                <element signature="e#3524#3536#0" expanded="true" />
-                <element signature="e#4313#4325#0" expanded="true" />
-                <element signature="e#4895#4907#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_node_test.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/list_node_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="206_Reverse_Linked_List.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#145#164#0" expanded="true" />
+                <element signature="e#396#408#0" expanded="true" />
+                <element signature="e#471#483#0" expanded="true" />
+                <element signature="e#558#570#0" expanded="true" />
+                <element signature="e#632#644#0" expanded="true" />
+                <element signature="e#706#718#0" expanded="true" />
+                <element signature="e#771#783#0" expanded="true" />
+                <element signature="e#858#870#0" expanded="true" />
+                <element signature="e#930#942#0" expanded="true" />
+                <element signature="e#1133#1145#0" expanded="true" />
+                <element signature="e#1607#1619#0" expanded="true" />
+                <element signature="e#1758#1770#0" expanded="true" />
+                <element signature="e#2082#2094#0" expanded="true" />
+                <element signature="e#2202#2214#0" expanded="true" />
+                <element signature="e#2729#2741#0" expanded="true" />
+                <element signature="e#2810#2822#0" expanded="true" />
+                <element signature="e#3090#3102#0" expanded="true" />
+                <element signature="e#3404#3416#0" expanded="true" />
+                <element signature="e#4177#4189#0" expanded="true" />
+                <element signature="e#4751#4763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,14 +163,16 @@
     <findStrings>
       <find>count</find>
       <find>LinkList</find>
-      <find>ListNode</find>
       <find>Node</find>
       <find>m_tpData</find>
+      <find>ListNode</find>
+      <find>&lt;int&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>LinkList</replace>
       <replace>ListNode</replace>
       <replace>val</replace>
+      <replace>Node</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -210,6 +191,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/list_node.h" />
         <option value="$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp" />
+        <option value="$PROJECT_DIR$/linked_list/92_Reverse_Linked_List_II.cpp" />
       </list>
     </option>
   </component>
@@ -221,10 +203,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="-4" />
-    <option name="width" value="1020" />
-    <option name="height" value="1084" />
+    <option name="x" value="24" />
+    <option name="y" value="4" />
+    <option name="width" value="1416" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,32 +279,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.206_Reverse_Linked_List">
-    <configuration name="206_Reverse_Linked_List" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="206_Reverse_Linked_List" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="206_Reverse_Linked_List">
+  <component name="RunManager" selected="Application.92_Reverse_Linked_List_II">
+    <configuration name="206_Reverse_Linked_List" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="206_Reverse_Linked_List" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="485_Max_Consecutive_Ones" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="485_Max_Consecutive_Ones" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
+    <configuration name="485_Max_Consecutive_Ones" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="485_Max_Consecutive_Ones" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="561_array_partition1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="561_array_partition1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
+    <configuration name="561_array_partition1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="561_array_partition1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="566_Reshape_the_Matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="566_Reshape_the_Matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
+    <configuration name="566_Reshape_the_Matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="566_Reshape_the_Matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="695_Max_Area_of_Island" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="695_Max_Area_of_Island" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
+    <configuration name="695_Max_Area_of_Island" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="695_Max_Area_of_Island" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="766_Toeplitz_Matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="766_Toeplitz_Matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
+    <configuration name="766_Toeplitz_Matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="766_Toeplitz_Matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="206_Reverse_Linked_List" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="92_Reverse_Linked_List_II" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="92_Reverse_Linked_List_II" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II">
+      <envs />
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="92_Reverse_Linked_List_II" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
     <configuration name="list_node_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="list_node_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="list_node_test">
       <envs />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.206_Reverse_Linked_List" />
       <item index="2" class="java.lang.String" itemvalue="Application.485_Max_Consecutive_Ones" />
@@ -330,7 +315,8 @@
       <item index="4" class="java.lang.String" itemvalue="Application.566_Reshape_the_Matrix" />
       <item index="5" class="java.lang.String" itemvalue="Application.695_Max_Area_of_Island" />
       <item index="6" class="java.lang.String" itemvalue="Application.766_Toeplitz_Matrix" />
-      <item index="7" class="java.lang.String" itemvalue="Application.list_node_test" />
+      <item index="7" class="java.lang.String" itemvalue="Application.92_Reverse_Linked_List_II" />
+      <item index="8" class="java.lang.String" itemvalue="Application.list_node_test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -349,24 +335,24 @@
       <workItem from="1523843522393" duration="16636000" />
       <workItem from="1524040679059" duration="621000" />
       <workItem from="1524053217650" duration="8566000" />
-      <workItem from="1524125364354" duration="6118000" />
+      <workItem from="1524125364354" duration="14718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31941000" />
+    <option name="totallyTimeSpent" value="40541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20304017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14332248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25968587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25968587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -388,7 +374,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -425,25 +411,25 @@
           <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
           <folding>
             <element signature="e#146#158#0" expanded="true" />
-            <element signature="e#424#436#0" expanded="true" />
-            <element signature="e#507#519#0" expanded="true" />
-            <element signature="e#602#614#0" expanded="true" />
-            <element signature="e#684#696#0" expanded="true" />
-            <element signature="e#762#774#0" expanded="true" />
-            <element signature="e#831#843#0" expanded="true" />
-            <element signature="e#926#938#0" expanded="true" />
-            <element signature="e#1006#1018#0" expanded="true" />
-            <element signature="e#1213#1225#0" expanded="true" />
-            <element signature="e#1691#1703#0" expanded="true" />
-            <element signature="e#1846#1858#0" expanded="true" />
-            <element signature="e#2182#2194#0" expanded="true" />
-            <element signature="e#2302#2314#0" expanded="true" />
-            <element signature="e#2841#2853#0" expanded="true" />
-            <element signature="e#2922#2934#0" expanded="true" />
-            <element signature="e#3206#3218#0" expanded="true" />
-            <element signature="e#3524#3536#0" expanded="true" />
-            <element signature="e#4313#4325#0" expanded="true" />
-            <element signature="e#4895#4907#0" expanded="true" />
+            <element signature="e#396#408#0" expanded="true" />
+            <element signature="e#471#483#0" expanded="true" />
+            <element signature="e#558#570#0" expanded="true" />
+            <element signature="e#632#644#0" expanded="true" />
+            <element signature="e#706#718#0" expanded="true" />
+            <element signature="e#771#783#0" expanded="true" />
+            <element signature="e#858#870#0" expanded="true" />
+            <element signature="e#930#942#0" expanded="true" />
+            <element signature="e#1133#1145#0" expanded="true" />
+            <element signature="e#1607#1619#0" expanded="true" />
+            <element signature="e#1758#1770#0" expanded="true" />
+            <element signature="e#2082#2094#0" expanded="true" />
+            <element signature="e#2202#2214#0" expanded="true" />
+            <element signature="e#2729#2741#0" expanded="true" />
+            <element signature="e#2810#2822#0" expanded="true" />
+            <element signature="e#3090#3102#0" expanded="true" />
+            <element signature="e#3404#3416#0" expanded="true" />
+            <element signature="e#4177#4189#0" expanded="true" />
+            <element signature="e#4751#4763#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,7 +477,7 @@
         <state relative-caret-position="345">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,59 +668,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/list_node.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/list_node_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/list_node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        <state relative-caret-position="44">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding>
             <element signature="e#146#158#0" expanded="true" />
-            <element signature="e#424#436#0" expanded="true" />
-            <element signature="e#507#519#0" expanded="true" />
-            <element signature="e#602#614#0" expanded="true" />
-            <element signature="e#684#696#0" expanded="true" />
-            <element signature="e#762#774#0" expanded="true" />
-            <element signature="e#831#843#0" expanded="true" />
-            <element signature="e#926#938#0" expanded="true" />
-            <element signature="e#1006#1018#0" expanded="true" />
-            <element signature="e#1213#1225#0" expanded="true" />
-            <element signature="e#1691#1703#0" expanded="true" />
-            <element signature="e#1846#1858#0" expanded="true" />
-            <element signature="e#2182#2194#0" expanded="true" />
-            <element signature="e#2302#2314#0" expanded="true" />
-            <element signature="e#2841#2853#0" expanded="true" />
-            <element signature="e#2922#2934#0" expanded="true" />
-            <element signature="e#3206#3218#0" expanded="true" />
-            <element signature="e#3524#3536#0" expanded="true" />
-            <element signature="e#4313#4325#0" expanded="true" />
-            <element signature="e#4895#4907#0" expanded="true" />
+            <element signature="e#396#408#0" expanded="true" />
+            <element signature="e#471#483#0" expanded="true" />
+            <element signature="e#558#570#0" expanded="true" />
+            <element signature="e#632#644#0" expanded="true" />
+            <element signature="e#706#718#0" expanded="true" />
+            <element signature="e#771#783#0" expanded="true" />
+            <element signature="e#858#870#0" expanded="true" />
+            <element signature="e#930#942#0" expanded="true" />
+            <element signature="e#1133#1145#0" expanded="true" />
+            <element signature="e#1607#1619#0" expanded="true" />
+            <element signature="e#1758#1770#0" expanded="true" />
+            <element signature="e#2082#2094#0" expanded="true" />
+            <element signature="e#2202#2214#0" expanded="true" />
+            <element signature="e#2729#2741#0" expanded="true" />
+            <element signature="e#2810#2822#0" expanded="true" />
+            <element signature="e#3090#3102#0" expanded="true" />
+            <element signature="e#3404#3416#0" expanded="true" />
+            <element signature="e#4177#4189#0" expanded="true" />
+            <element signature="e#4751#4763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/206_Reverse_Linked_List.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#145#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/92_Reverse_Linked_List_II.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#199#218#0" expanded="true" />
           </folding>
         </state>
       </provider>

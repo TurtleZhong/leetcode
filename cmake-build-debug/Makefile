@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 206_Reverse_Linked_List
+
+# Build rule for target.
+206_Reverse_Linked_List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206_Reverse_Linked_List
+.PHONY : 206_Reverse_Linked_List
+
+# fast build rule for target.
+206_Reverse_Linked_List/fast:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
+.PHONY : 206_Reverse_Linked_List/fast
+
+#=============================================================================
 # Target rules for targets named 695_Max_Area_of_Island
 
 # Build rule for target.
@@ -161,6 +174,32 @@ depend:
 766_Toeplitz_Matrix/fast:
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/build
 .PHONY : 766_Toeplitz_Matrix/fast
+
+#=============================================================================
+# Target rules for targets named 92_Reverse_Linked_List_II
+
+# Build rule for target.
+92_Reverse_Linked_List_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 92_Reverse_Linked_List_II
+.PHONY : 92_Reverse_Linked_List_II
+
+# fast build rule for target.
+92_Reverse_Linked_List_II/fast:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
+.PHONY : 92_Reverse_Linked_List_II/fast
+
+#=============================================================================
+# Target rules for targets named list_node_test
+
+# Build rule for target.
+list_node_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list_node_test
+.PHONY : list_node_test
+
+# fast build rule for target.
+list_node_test/fast:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/build
+.PHONY : list_node_test/fast
 
 #=============================================================================
 # Target rules for targets named 561_array_partition1
@@ -310,18 +349,102 @@ array/766_Toeplitz_Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/array/766_Toeplitz_Matrix.cpp.s
 .PHONY : array/766_Toeplitz_Matrix.cpp.s
 
+array/list_node_test.o: array/list_node_test.cpp.o
+
+.PHONY : array/list_node_test.o
+
+# target to build an object file
+array/list_node_test.cpp.o:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/array/list_node_test.cpp.o
+.PHONY : array/list_node_test.cpp.o
+
+array/list_node_test.i: array/list_node_test.cpp.i
+
+.PHONY : array/list_node_test.i
+
+# target to preprocess a source file
+array/list_node_test.cpp.i:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/array/list_node_test.cpp.i
+.PHONY : array/list_node_test.cpp.i
+
+array/list_node_test.s: array/list_node_test.cpp.s
+
+.PHONY : array/list_node_test.s
+
+# target to generate assembly for a file
+array/list_node_test.cpp.s:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/array/list_node_test.cpp.s
+.PHONY : array/list_node_test.cpp.s
+
+linked_list/206_Reverse_Linked_List.o: linked_list/206_Reverse_Linked_List.cpp.o
+
+.PHONY : linked_list/206_Reverse_Linked_List.o
+
+# target to build an object file
+linked_list/206_Reverse_Linked_List.cpp.o:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/linked_list/206_Reverse_Linked_List.cpp.o
+.PHONY : linked_list/206_Reverse_Linked_List.cpp.o
+
+linked_list/206_Reverse_Linked_List.i: linked_list/206_Reverse_Linked_List.cpp.i
+
+.PHONY : linked_list/206_Reverse_Linked_List.i
+
+# target to preprocess a source file
+linked_list/206_Reverse_Linked_List.cpp.i:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/linked_list/206_Reverse_Linked_List.cpp.i
+.PHONY : linked_list/206_Reverse_Linked_List.cpp.i
+
+linked_list/206_Reverse_Linked_List.s: linked_list/206_Reverse_Linked_List.cpp.s
+
+.PHONY : linked_list/206_Reverse_Linked_List.s
+
+# target to generate assembly for a file
+linked_list/206_Reverse_Linked_List.cpp.s:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/linked_list/206_Reverse_Linked_List.cpp.s
+.PHONY : linked_list/206_Reverse_Linked_List.cpp.s
+
+linked_list/92_Reverse_Linked_List_II.o: linked_list/92_Reverse_Linked_List_II.cpp.o
+
+.PHONY : linked_list/92_Reverse_Linked_List_II.o
+
+# target to build an object file
+linked_list/92_Reverse_Linked_List_II.cpp.o:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/linked_list/92_Reverse_Linked_List_II.cpp.o
+.PHONY : linked_list/92_Reverse_Linked_List_II.cpp.o
+
+linked_list/92_Reverse_Linked_List_II.i: linked_list/92_Reverse_Linked_List_II.cpp.i
+
+.PHONY : linked_list/92_Reverse_Linked_List_II.i
+
+# target to preprocess a source file
+linked_list/92_Reverse_Linked_List_II.cpp.i:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/linked_list/92_Reverse_Linked_List_II.cpp.i
+.PHONY : linked_list/92_Reverse_Linked_List_II.cpp.i
+
+linked_list/92_Reverse_Linked_List_II.s: linked_list/92_Reverse_Linked_List_II.cpp.s
+
+.PHONY : linked_list/92_Reverse_Linked_List_II.s
+
+# target to generate assembly for a file
+linked_list/92_Reverse_Linked_List_II.cpp.s:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/linked_list/92_Reverse_Linked_List_II.cpp.s
+.PHONY : linked_list/92_Reverse_Linked_List_II.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... 206_Reverse_Linked_List"
 	@echo "... edit_cache"
 	@echo "... 695_Max_Area_of_Island"
 	@echo "... 485_Max_Consecutive_Ones"
 	@echo "... 566_Reshape_the_Matrix"
 	@echo "... rebuild_cache"
 	@echo "... 766_Toeplitz_Matrix"
+	@echo "... 92_Reverse_Linked_List_II"
+	@echo "... list_node_test"
 	@echo "... 561_array_partition1"
 	@echo "... array/485_Max_Consecutive_Ones.o"
 	@echo "... array/485_Max_Consecutive_Ones.i"
@@ -338,6 +461,15 @@ help:
 	@echo "... array/766_Toeplitz_Matrix.o"
 	@echo "... array/766_Toeplitz_Matrix.i"
 	@echo "... array/766_Toeplitz_Matrix.s"
+	@echo "... array/list_node_test.o"
+	@echo "... array/list_node_test.i"
+	@echo "... array/list_node_test.s"
+	@echo "... linked_list/206_Reverse_Linked_List.o"
+	@echo "... linked_list/206_Reverse_Linked_List.i"
+	@echo "... linked_list/206_Reverse_Linked_List.s"
+	@echo "... linked_list/92_Reverse_Linked_List_II.o"
+	@echo "... linked_list/92_Reverse_Linked_List_II.i"
+	@echo "... linked_list/92_Reverse_Linked_List_II.s"
 .PHONY : help
 
 

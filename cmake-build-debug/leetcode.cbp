@@ -17,6 +17,62 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="206_Reverse_Linked_List">
+				<Option output="/home/m/leetcode/cmake-build-debug/206_Reverse_Linked_List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 206_Reverse_Linked_List"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="206_Reverse_Linked_List/fast">
+				<Option output="/home/m/leetcode/cmake-build-debug/206_Reverse_Linked_List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 206_Reverse_Linked_List/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -261,6 +317,118 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="92_Reverse_Linked_List_II">
+				<Option output="/home/m/leetcode/cmake-build-debug/92_Reverse_Linked_List_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 92_Reverse_Linked_List_II"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="92_Reverse_Linked_List_II/fast">
+				<Option output="/home/m/leetcode/cmake-build-debug/92_Reverse_Linked_List_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 92_Reverse_Linked_List_II/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_node_test">
+				<Option output="/home/m/leetcode/cmake-build-debug/list_node_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_node_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_node_test/fast">
+				<Option output="/home/m/leetcode/cmake-build-debug/list_node_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m/leetcode/array"/>
+					<Add directory="/home/m/leetcode/binary_search"/>
+					<Add directory="/home/m/leetcode/linked_list"/>
+					<Add directory="/home/m/leetcode/string"/>
+					<Add directory="/home/m/leetcode/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_node_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/m/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="561_array_partition1">
 				<Option output="/home/m/leetcode/cmake-build-debug/561_array_partition1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/m/leetcode/cmake-build-debug"/>
@@ -332,6 +500,15 @@
 		</Unit>
 		<Unit filename="/home/m/leetcode/array/766_Toeplitz_Matrix.cpp">
 			<Option target="766_Toeplitz_Matrix"/>
+		</Unit>
+		<Unit filename="/home/m/leetcode/array/list_node_test.cpp">
+			<Option target="list_node_test"/>
+		</Unit>
+		<Unit filename="/home/m/leetcode/linked_list/206_Reverse_Linked_List.cpp">
+			<Option target="206_Reverse_Linked_List"/>
+		</Unit>
+		<Unit filename="/home/m/leetcode/linked_list/92_Reverse_Linked_List_II.cpp">
+			<Option target="92_Reverse_Linked_List_II"/>
 		</Unit>
 		<Unit filename="/home/m/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

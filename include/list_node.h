@@ -10,71 +10,71 @@
 using namespace std;
 
 template <typename T>
-class ListNode
+class Node
 {
 public:
-    ListNode();
-    ListNode(T data);
-    ~ListNode();
+    Node();
+    Node(T data);
+    ~Node();
     void setData(T data);
     T getData();
-    void setNext(ListNode<T> *next);
-    ListNode* getNext();
+    void setNext(Node<T> *next);
+    Node* getNext();
     void printData();
 
 public:
     T *val;
-    ListNode<T> *next;
+    Node<T> *next;
 };
 
 
 template <typename T>
-ListNode<T>::ListNode()
+Node<T>::Node()
 {
     val = new T;
     next=NULL;
 }
 
 template <typename T>
-ListNode<T>::ListNode(T data)
+Node<T>::Node(T data)
 {
     val = new T(data);
     next=NULL;
 }
 
 template <typename T>
-ListNode<T>::~ListNode()
+Node<T>::~Node()
 {
     delete val;
     val=NULL;
 }
 
 template <typename T>
-void ListNode<T>::setData(T data)
+void Node<T>::setData(T data)
 {
     *val = data;
 }
 
 template <typename T>
-T ListNode<T>::getData()
+T Node<T>::getData()
 {
     return *val;
 }
 
 template <typename T>
-void ListNode<T>::setNext(ListNode<T> *next)
+void Node<T>::setNext(Node<T> *next)
 {
     this->next = next;
 }
 
 template <typename T>
-ListNode<T>* ListNode<T>::getNext()
+Node<T>* Node<T>::getNext()
 {
     return next;
 }
 
 template <typename T>
-void ListNode<T>::printData()
+void Node<T>::printData()
 {
     if(next != nullptr)
         cout<<*val<< " -> ";
@@ -107,7 +107,7 @@ public:
     bool ListDelete(int index,T *elem);
     void ListPrint(void);
 private:
-    ListNode<T> *m_pList;
+    Node<T> *m_pList;
     int m_iLength;
 
 };
@@ -115,7 +115,7 @@ private:
 template <typename T>
 LinkList<T>::LinkList()
 {
-    m_pList = new ListNode<T>;
+    m_pList = new Node<T>;
     m_pList->setData(NULL);
     m_pList->setNext(NULL);
     m_iLength=0;
@@ -124,14 +124,14 @@ LinkList<T>::LinkList()
 template <typename T>
 LinkList<T>::~LinkList()
 {
-    ListNode<T> *nextNode = m_pList;
-    while(nextNode->getNext()!=NULL)    //delete ListNode while pointerNext == NULL
+    Node<T> *nextNode = m_pList;
+    while(nextNode->getNext()!=NULL)    //delete Node while pointerNext == NULL
     {
         nextNode=m_pList->getNext();
         delete m_pList;
         m_pList = nextNode;
     }
-    delete m_pList;//delete last ListNode
+    delete m_pList;//delete last Node
     m_pList = NULL;
 }
 
@@ -154,15 +154,15 @@ bool LinkList<T>::clearList()
     }
 
     //delete All node except first node
-    ListNode<T> *nowNode = m_pList->getNext();
-    ListNode<T> *nextNode = m_pList->getNext();
+    Node<T> *nowNode = m_pList->getNext();
+    Node<T> *nextNode = m_pList->getNext();
     while(nextNode->getNext()!=NULL)
     {
         nextNode=nowNode->getNext();
         delete nowNode;
         nowNode = nextNode;
     }
-    delete nowNode;//delete last ListNode
+    delete nowNode;//delete last Node
 
     m_iLength = 0;
     m_pList->setNext(NULL);
@@ -177,7 +177,7 @@ int LinkList<T>::getListLength()
 template <typename T>
 int LinkList<T>::getElemIndex(T &elem)
 {
-    ListNode<T> *tempNode = m_pList;
+    Node<T> *tempNode = m_pList;
     for(int i=0;i<m_iLength;i++)
     {
         tempNode = tempNode->getNext();
@@ -196,7 +196,7 @@ bool LinkList<T>::getListElem(int index,T* elem)
         return false;
     }
 
-    ListNode<T> *tempNode = m_pList;
+    Node<T> *tempNode = m_pList;
     for(int i=0;i<=index;i++)
     {
         tempNode=tempNode->getNext();
@@ -218,19 +218,19 @@ bool LinkList<T>::ListInsert(int index,T &elem)
     }
 
     //
-    ListNode<T> *tempPreNode = m_pList;
+    Node<T> *tempPreNode = m_pList;
     for(int i=0;i<index;i++)
     {
         tempPreNode = tempPreNode->getNext();
     }
 
-    ListNode<T> *newnode = new ListNode<T>;    //create a new node
+    Node<T> *newnode = new Node<T>;    //create a new node
     if(newnode == NULL)
     {
         cout<<"new node create fail"<<endl;
         return false;
     }
-    ListNode<T> *tempNode= tempPreNode->getNext();//save pre node pointer
+    Node<T> *tempNode= tempPreNode->getNext();//save pre node pointer
     tempPreNode->setNext(newnode); //set pre node pointer to new node address
     newnode->setNext(tempNode);//set new node pointer to pre node pointer
     newnode->setData(elem);    //set new node new data
@@ -248,13 +248,13 @@ bool LinkList<T>::ListDelete(int index,T *elem)
     }
 
     //
-    ListNode<T> *tempPreNode = m_pList; //pre node
+    Node<T> *tempPreNode = m_pList; //pre node
     for(int i=0;i<index;i++)//find pre node
     {
         tempPreNode = tempPreNode->getNext();
     }
 
-    ListNode<T> * tempNode = tempPreNode->getNext();//save delete point pointer
+    Node<T> * tempNode = tempPreNode->getNext();//save delete point pointer
     tempPreNode->setNext(tempNode->getNext());//set pre node  point to next node
     *elem = tempNode->getData();
     delete tempNode;
@@ -271,7 +271,7 @@ void LinkList<T>::ListPrint(void)
         cout<<"List empty"<<endl;
         return;
     }
-    ListNode<T> *tempNode=m_pList->getNext();
+    Node<T> *tempNode=m_pList->getNext();
     while(tempNode->getNext() != NULL)
     {
         tempNode->printData();

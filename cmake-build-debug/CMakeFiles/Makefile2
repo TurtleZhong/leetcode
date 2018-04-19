@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/m/leetcode
 CMAKE_BINARY_DIR = /home/m/leetcode/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/206_Reverse_Linked_List.dir
+
+# All Build rule for target.
+CMakeFiles/206_Reverse_Linked_List.dir/all:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/depend
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 206_Reverse_Linked_List"
+.PHONY : CMakeFiles/206_Reverse_Linked_List.dir/all
+
+# Include target in all.
+all: CMakeFiles/206_Reverse_Linked_List.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/206_Reverse_Linked_List.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/206_Reverse_Linked_List.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/206_Reverse_Linked_List.dir/rule
+
+# Convenience name for target.
+206_Reverse_Linked_List: CMakeFiles/206_Reverse_Linked_List.dir/rule
+
+.PHONY : 206_Reverse_Linked_List
+
+# clean rule for target.
+CMakeFiles/206_Reverse_Linked_List.dir/clean:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/clean
+.PHONY : CMakeFiles/206_Reverse_Linked_List.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/206_Reverse_Linked_List.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/695_Max_Area_of_Island.dir
 
 # All Build rule for target.
 CMakeFiles/695_Max_Area_of_Island.dir/all:
 	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/depend
 	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 695_Max_Area_of_Island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 695_Max_Area_of_Island"
 .PHONY : CMakeFiles/695_Max_Area_of_Island.dir/all
 
 # Include target in all.
@@ -103,7 +140,7 @@ clean: CMakeFiles/695_Max_Area_of_Island.dir/clean
 CMakeFiles/485_Max_Consecutive_Ones.dir/all:
 	$(MAKE) -f CMakeFiles/485_Max_Consecutive_Ones.dir/build.make CMakeFiles/485_Max_Consecutive_Ones.dir/depend
 	$(MAKE) -f CMakeFiles/485_Max_Consecutive_Ones.dir/build.make CMakeFiles/485_Max_Consecutive_Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 485_Max_Consecutive_Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 485_Max_Consecutive_Ones"
 .PHONY : CMakeFiles/485_Max_Consecutive_Ones.dir/all
 
 # Include target in all.
@@ -140,7 +177,7 @@ clean: CMakeFiles/485_Max_Consecutive_Ones.dir/clean
 CMakeFiles/566_Reshape_the_Matrix.dir/all:
 	$(MAKE) -f CMakeFiles/566_Reshape_the_Matrix.dir/build.make CMakeFiles/566_Reshape_the_Matrix.dir/depend
 	$(MAKE) -f CMakeFiles/566_Reshape_the_Matrix.dir/build.make CMakeFiles/566_Reshape_the_Matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 566_Reshape_the_Matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 566_Reshape_the_Matrix"
 .PHONY : CMakeFiles/566_Reshape_the_Matrix.dir/all
 
 # Include target in all.
@@ -177,7 +214,7 @@ clean: CMakeFiles/566_Reshape_the_Matrix.dir/clean
 CMakeFiles/766_Toeplitz_Matrix.dir/all:
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/depend
 	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 766_Toeplitz_Matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 766_Toeplitz_Matrix"
 .PHONY : CMakeFiles/766_Toeplitz_Matrix.dir/all
 
 # Include target in all.
@@ -208,13 +245,87 @@ clean: CMakeFiles/766_Toeplitz_Matrix.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/92_Reverse_Linked_List_II.dir
+
+# All Build rule for target.
+CMakeFiles/92_Reverse_Linked_List_II.dir/all:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/depend
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 92_Reverse_Linked_List_II"
+.PHONY : CMakeFiles/92_Reverse_Linked_List_II.dir/all
+
+# Include target in all.
+all: CMakeFiles/92_Reverse_Linked_List_II.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/92_Reverse_Linked_List_II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/92_Reverse_Linked_List_II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/92_Reverse_Linked_List_II.dir/rule
+
+# Convenience name for target.
+92_Reverse_Linked_List_II: CMakeFiles/92_Reverse_Linked_List_II.dir/rule
+
+.PHONY : 92_Reverse_Linked_List_II
+
+# clean rule for target.
+CMakeFiles/92_Reverse_Linked_List_II.dir/clean:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/clean
+.PHONY : CMakeFiles/92_Reverse_Linked_List_II.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/92_Reverse_Linked_List_II.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/list_node_test.dir
+
+# All Build rule for target.
+CMakeFiles/list_node_test.dir/all:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/depend
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target list_node_test"
+.PHONY : CMakeFiles/list_node_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/list_node_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/list_node_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/list_node_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/leetcode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/list_node_test.dir/rule
+
+# Convenience name for target.
+list_node_test: CMakeFiles/list_node_test.dir/rule
+
+.PHONY : list_node_test
+
+# clean rule for target.
+CMakeFiles/list_node_test.dir/clean:
+	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/clean
+.PHONY : CMakeFiles/list_node_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/list_node_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/561_array_partition1.dir
 
 # All Build rule for target.
 CMakeFiles/561_array_partition1.dir/all:
 	$(MAKE) -f CMakeFiles/561_array_partition1.dir/build.make CMakeFiles/561_array_partition1.dir/depend
 	$(MAKE) -f CMakeFiles/561_array_partition1.dir/build.make CMakeFiles/561_array_partition1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 561_array_partition1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m/leetcode/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 561_array_partition1"
 .PHONY : CMakeFiles/561_array_partition1.dir/all
 
 # Include target in all.
