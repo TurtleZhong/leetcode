@@ -15,3 +15,7 @@ add_executable(766_Toeplitz_Matrix array/766_Toeplitz_Matrix.cpp)
 add_executable(566_Reshape_the_Matrix array/566_Reshape_the_Matrix.cpp)
 add_executable(485_Max_Consecutive_Ones array/485_Max_Consecutive_Ones.cpp)
 add_executable(695_Max_Area_of_Island array/695_Max_Area_of_Island.cpp)
+
+
+add_executable(list_node_test array/list_node_test.cpp)
+add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
