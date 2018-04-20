@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/m/leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/m/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/m/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,82 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 206_Reverse_Linked_List
+# Target rules for targets named 561_array_partition1
 
 # Build rule for target.
-206_Reverse_Linked_List: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206_Reverse_Linked_List
-.PHONY : 206_Reverse_Linked_List
+561_array_partition1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 561_array_partition1
+.PHONY : 561_array_partition1
 
 # fast build rule for target.
-206_Reverse_Linked_List/fast:
-	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
-.PHONY : 206_Reverse_Linked_List/fast
-
-#=============================================================================
-# Target rules for targets named 695_Max_Area_of_Island
-
-# Build rule for target.
-695_Max_Area_of_Island: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 695_Max_Area_of_Island
-.PHONY : 695_Max_Area_of_Island
-
-# fast build rule for target.
-695_Max_Area_of_Island/fast:
-	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
-.PHONY : 695_Max_Area_of_Island/fast
-
-#=============================================================================
-# Target rules for targets named 485_Max_Consecutive_Ones
-
-# Build rule for target.
-485_Max_Consecutive_Ones: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 485_Max_Consecutive_Ones
-.PHONY : 485_Max_Consecutive_Ones
-
-# fast build rule for target.
-485_Max_Consecutive_Ones/fast:
-	$(MAKE) -f CMakeFiles/485_Max_Consecutive_Ones.dir/build.make CMakeFiles/485_Max_Consecutive_Ones.dir/build
-.PHONY : 485_Max_Consecutive_Ones/fast
-
-#=============================================================================
-# Target rules for targets named 566_Reshape_the_Matrix
-
-# Build rule for target.
-566_Reshape_the_Matrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 566_Reshape_the_Matrix
-.PHONY : 566_Reshape_the_Matrix
-
-# fast build rule for target.
-566_Reshape_the_Matrix/fast:
-	$(MAKE) -f CMakeFiles/566_Reshape_the_Matrix.dir/build.make CMakeFiles/566_Reshape_the_Matrix.dir/build
-.PHONY : 566_Reshape_the_Matrix/fast
-
-#=============================================================================
-# Target rules for targets named 766_Toeplitz_Matrix
-
-# Build rule for target.
-766_Toeplitz_Matrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 766_Toeplitz_Matrix
-.PHONY : 766_Toeplitz_Matrix
-
-# fast build rule for target.
-766_Toeplitz_Matrix/fast:
-	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/build
-.PHONY : 766_Toeplitz_Matrix/fast
-
-#=============================================================================
-# Target rules for targets named 92_Reverse_Linked_List_II
-
-# Build rule for target.
-92_Reverse_Linked_List_II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 92_Reverse_Linked_List_II
-.PHONY : 92_Reverse_Linked_List_II
-
-# fast build rule for target.
-92_Reverse_Linked_List_II/fast:
-	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
-.PHONY : 92_Reverse_Linked_List_II/fast
+561_array_partition1/fast:
+	$(MAKE) -f CMakeFiles/561_array_partition1.dir/build.make CMakeFiles/561_array_partition1.dir/build
+.PHONY : 561_array_partition1/fast
 
 #=============================================================================
 # Target rules for targets named list_node_test
@@ -202,17 +137,162 @@ list_node_test/fast:
 .PHONY : list_node_test/fast
 
 #=============================================================================
-# Target rules for targets named 561_array_partition1
+# Target rules for targets named 92_Reverse_Linked_List_II
 
 # Build rule for target.
-561_array_partition1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 561_array_partition1
-.PHONY : 561_array_partition1
+92_Reverse_Linked_List_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 92_Reverse_Linked_List_II
+.PHONY : 92_Reverse_Linked_List_II
 
 # fast build rule for target.
-561_array_partition1/fast:
-	$(MAKE) -f CMakeFiles/561_array_partition1.dir/build.make CMakeFiles/561_array_partition1.dir/build
-.PHONY : 561_array_partition1/fast
+92_Reverse_Linked_List_II/fast:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
+.PHONY : 92_Reverse_Linked_List_II/fast
+
+#=============================================================================
+# Target rules for targets named 766_Toeplitz_Matrix
+
+# Build rule for target.
+766_Toeplitz_Matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 766_Toeplitz_Matrix
+.PHONY : 766_Toeplitz_Matrix
+
+# fast build rule for target.
+766_Toeplitz_Matrix/fast:
+	$(MAKE) -f CMakeFiles/766_Toeplitz_Matrix.dir/build.make CMakeFiles/766_Toeplitz_Matrix.dir/build
+.PHONY : 766_Toeplitz_Matrix/fast
+
+#=============================================================================
+# Target rules for targets named 566_Reshape_the_Matrix
+
+# Build rule for target.
+566_Reshape_the_Matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 566_Reshape_the_Matrix
+.PHONY : 566_Reshape_the_Matrix
+
+# fast build rule for target.
+566_Reshape_the_Matrix/fast:
+	$(MAKE) -f CMakeFiles/566_Reshape_the_Matrix.dir/build.make CMakeFiles/566_Reshape_the_Matrix.dir/build
+.PHONY : 566_Reshape_the_Matrix/fast
+
+#=============================================================================
+# Target rules for targets named 448_Find_All_Numbers_Disappeared_in_an_Array
+
+# Build rule for target.
+448_Find_All_Numbers_Disappeared_in_an_Array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 448_Find_All_Numbers_Disappeared_in_an_Array
+.PHONY : 448_Find_All_Numbers_Disappeared_in_an_Array
+
+# fast build rule for target.
+448_Find_All_Numbers_Disappeared_in_an_Array/fast:
+	$(MAKE) -f CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/build.make CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/build
+.PHONY : 448_Find_All_Numbers_Disappeared_in_an_Array/fast
+
+#=============================================================================
+# Target rules for targets named 485_Max_Consecutive_Ones
+
+# Build rule for target.
+485_Max_Consecutive_Ones: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 485_Max_Consecutive_Ones
+.PHONY : 485_Max_Consecutive_Ones
+
+# fast build rule for target.
+485_Max_Consecutive_Ones/fast:
+	$(MAKE) -f CMakeFiles/485_Max_Consecutive_Ones.dir/build.make CMakeFiles/485_Max_Consecutive_Ones.dir/build
+.PHONY : 485_Max_Consecutive_Ones/fast
+
+#=============================================================================
+# Target rules for targets named 695_Max_Area_of_Island
+
+# Build rule for target.
+695_Max_Area_of_Island: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 695_Max_Area_of_Island
+.PHONY : 695_Max_Area_of_Island
+
+# fast build rule for target.
+695_Max_Area_of_Island/fast:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
+.PHONY : 695_Max_Area_of_Island/fast
+
+#=============================================================================
+# Target rules for targets named 283_Move_Zeroes
+
+# Build rule for target.
+283_Move_Zeroes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 283_Move_Zeroes
+.PHONY : 283_Move_Zeroes
+
+# fast build rule for target.
+283_Move_Zeroes/fast:
+	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/build
+.PHONY : 283_Move_Zeroes/fast
+
+#=============================================================================
+# Target rules for targets named 206_Reverse_Linked_List
+
+# Build rule for target.
+206_Reverse_Linked_List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206_Reverse_Linked_List
+.PHONY : 206_Reverse_Linked_List
+
+# fast build rule for target.
+206_Reverse_Linked_List/fast:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
+.PHONY : 206_Reverse_Linked_List/fast
+
+array/283_Move_Zeroes.o: array/283_Move_Zeroes.cpp.o
+
+.PHONY : array/283_Move_Zeroes.o
+
+# target to build an object file
+array/283_Move_Zeroes.cpp.o:
+	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/array/283_Move_Zeroes.cpp.o
+.PHONY : array/283_Move_Zeroes.cpp.o
+
+array/283_Move_Zeroes.i: array/283_Move_Zeroes.cpp.i
+
+.PHONY : array/283_Move_Zeroes.i
+
+# target to preprocess a source file
+array/283_Move_Zeroes.cpp.i:
+	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/array/283_Move_Zeroes.cpp.i
+.PHONY : array/283_Move_Zeroes.cpp.i
+
+array/283_Move_Zeroes.s: array/283_Move_Zeroes.cpp.s
+
+.PHONY : array/283_Move_Zeroes.s
+
+# target to generate assembly for a file
+array/283_Move_Zeroes.cpp.s:
+	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/array/283_Move_Zeroes.cpp.s
+.PHONY : array/283_Move_Zeroes.cpp.s
+
+array/448_Find_All_Numbers_Disappeared_in_an_Array.o: array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.o
+
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.o
+
+# target to build an object file
+array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.o:
+	$(MAKE) -f CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/build.make CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.o
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.o
+
+array/448_Find_All_Numbers_Disappeared_in_an_Array.i: array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.i
+
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.i
+
+# target to preprocess a source file
+array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.i:
+	$(MAKE) -f CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/build.make CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.i
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.i
+
+array/448_Find_All_Numbers_Disappeared_in_an_Array.s: array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.s
+
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.s
+
+# target to generate assembly for a file
+array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.s:
+	$(MAKE) -f CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/build.make CMakeFiles/448_Find_All_Numbers_Disappeared_in_an_Array.dir/array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.s
+.PHONY : array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp.s
 
 array/485_Max_Consecutive_Ones.o: array/485_Max_Consecutive_Ones.cpp.o
 
@@ -436,16 +516,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 206_Reverse_Linked_List"
-	@echo "... edit_cache"
-	@echo "... 695_Max_Area_of_Island"
-	@echo "... 485_Max_Consecutive_Ones"
-	@echo "... 566_Reshape_the_Matrix"
 	@echo "... rebuild_cache"
-	@echo "... 766_Toeplitz_Matrix"
-	@echo "... 92_Reverse_Linked_List_II"
-	@echo "... list_node_test"
+	@echo "... edit_cache"
 	@echo "... 561_array_partition1"
+	@echo "... list_node_test"
+	@echo "... 92_Reverse_Linked_List_II"
+	@echo "... 766_Toeplitz_Matrix"
+	@echo "... 566_Reshape_the_Matrix"
+	@echo "... 448_Find_All_Numbers_Disappeared_in_an_Array"
+	@echo "... 485_Max_Consecutive_Ones"
+	@echo "... 695_Max_Area_of_Island"
+	@echo "... 283_Move_Zeroes"
+	@echo "... 206_Reverse_Linked_List"
+	@echo "... array/283_Move_Zeroes.o"
+	@echo "... array/283_Move_Zeroes.i"
+	@echo "... array/283_Move_Zeroes.s"
+	@echo "... array/448_Find_All_Numbers_Disappeared_in_an_Array.o"
+	@echo "... array/448_Find_All_Numbers_Disappeared_in_an_Array.i"
+	@echo "... array/448_Find_All_Numbers_Disappeared_in_an_Array.s"
 	@echo "... array/485_Max_Consecutive_Ones.o"
 	@echo "... array/485_Max_Consecutive_Ones.i"
 	@echo "... array/485_Max_Consecutive_Ones.s"
