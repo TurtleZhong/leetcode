@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/485_Max_Consecutive_Ones.dir/array/485_Max_Consecutive_Ones.cpp.o  -o 485_Max_Consecutive_Ones 
