@@ -12,7 +12,6 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -22,12 +21,29 @@ vector<int> findDisappearedNumbers(vector<int>& nums)
     if(nums.empty())
         return results;
     int nums_length = nums.size();
+    vector<int> flag(nums_length, -1);
 
-    
-
+    for (int i = 0; i < nums_length; ++i)
+    {
+        flag[nums[i] - 1] = 1;
+    }
+    for (int j = 0; j < nums_length; ++j)
+    {
+        if(flag[j] < 0)
+            results.push_back(j+1);
+    }
+    return results;
 }
 
 int main()
 {
+    int array[] = {4,3,2,7,8,2,3,1};
+    vector<int> nums(array, array+8);
+    vector<int> results = findDisappearedNumbers(nums);
+    for (int i = 0; i < results.size(); ++i)
+    {
+        cout << results[i] << " ";
+    }
+    cout << endl;
     return 0;
 }

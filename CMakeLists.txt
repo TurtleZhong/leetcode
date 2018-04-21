@@ -17,6 +17,8 @@ add_executable(485_Max_Consecutive_Ones array/485_Max_Consecutive_Ones.cpp)
 add_executable(695_Max_Area_of_Island array/695_Max_Area_of_Island.cpp)
 add_executable(283_Move_Zeroes array/283_Move_Zeroes.cpp)
 add_executable(448_Find_All_Numbers_Disappeared_in_an_Array array/448_Find_All_Numbers_Disappeared_in_an_Array.cpp)
+add_executable(717_1-bit_and_2-bit_Characters array/717_1-bit_and_2-bit_Characters.cpp)
+add_executable(169_Majority_Element array/169_Majority_Element.cpp)
 
 
 add_executable(list_node_test array/list_node_test.cpp)
