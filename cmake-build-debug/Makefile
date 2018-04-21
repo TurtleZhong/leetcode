@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 92_Reverse_Linked_List_II
+
+# Build rule for target.
+92_Reverse_Linked_List_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 92_Reverse_Linked_List_II
+.PHONY : 92_Reverse_Linked_List_II
+
+# fast build rule for target.
+92_Reverse_Linked_List_II/fast:
+	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
+.PHONY : 92_Reverse_Linked_List_II/fast
+
+#=============================================================================
 # Target rules for targets named 561_array_partition1
 
 # Build rule for target.
@@ -135,19 +148,6 @@ list_node_test: cmake_check_build_system
 list_node_test/fast:
 	$(MAKE) -f CMakeFiles/list_node_test.dir/build.make CMakeFiles/list_node_test.dir/build
 .PHONY : list_node_test/fast
-
-#=============================================================================
-# Target rules for targets named 92_Reverse_Linked_List_II
-
-# Build rule for target.
-92_Reverse_Linked_List_II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 92_Reverse_Linked_List_II
-.PHONY : 92_Reverse_Linked_List_II
-
-# fast build rule for target.
-92_Reverse_Linked_List_II/fast:
-	$(MAKE) -f CMakeFiles/92_Reverse_Linked_List_II.dir/build.make CMakeFiles/92_Reverse_Linked_List_II.dir/build
-.PHONY : 92_Reverse_Linked_List_II/fast
 
 #=============================================================================
 # Target rules for targets named 766_Toeplitz_Matrix
@@ -176,6 +176,58 @@ list_node_test/fast:
 .PHONY : 566_Reshape_the_Matrix/fast
 
 #=============================================================================
+# Target rules for targets named 717_1-bit_and_2-bit_Characters
+
+# Build rule for target.
+717_1-bit_and_2-bit_Characters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 717_1-bit_and_2-bit_Characters
+.PHONY : 717_1-bit_and_2-bit_Characters
+
+# fast build rule for target.
+717_1-bit_and_2-bit_Characters/fast:
+	$(MAKE) -f CMakeFiles/717_1-bit_and_2-bit_Characters.dir/build.make CMakeFiles/717_1-bit_and_2-bit_Characters.dir/build
+.PHONY : 717_1-bit_and_2-bit_Characters/fast
+
+#=============================================================================
+# Target rules for targets named 695_Max_Area_of_Island
+
+# Build rule for target.
+695_Max_Area_of_Island: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 695_Max_Area_of_Island
+.PHONY : 695_Max_Area_of_Island
+
+# fast build rule for target.
+695_Max_Area_of_Island/fast:
+	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
+.PHONY : 695_Max_Area_of_Island/fast
+
+#=============================================================================
+# Target rules for targets named 206_Reverse_Linked_List
+
+# Build rule for target.
+206_Reverse_Linked_List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 206_Reverse_Linked_List
+.PHONY : 206_Reverse_Linked_List
+
+# fast build rule for target.
+206_Reverse_Linked_List/fast:
+	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
+.PHONY : 206_Reverse_Linked_List/fast
+
+#=============================================================================
+# Target rules for targets named 283_Move_Zeroes
+
+# Build rule for target.
+283_Move_Zeroes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 283_Move_Zeroes
+.PHONY : 283_Move_Zeroes
+
+# fast build rule for target.
+283_Move_Zeroes/fast:
+	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/build
+.PHONY : 283_Move_Zeroes/fast
+
+#=============================================================================
 # Target rules for targets named 448_Find_All_Numbers_Disappeared_in_an_Array
 
 # Build rule for target.
@@ -202,43 +254,44 @@ list_node_test/fast:
 .PHONY : 485_Max_Consecutive_Ones/fast
 
 #=============================================================================
-# Target rules for targets named 695_Max_Area_of_Island
+# Target rules for targets named 169_Majority_Element
 
 # Build rule for target.
-695_Max_Area_of_Island: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 695_Max_Area_of_Island
-.PHONY : 695_Max_Area_of_Island
+169_Majority_Element: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 169_Majority_Element
+.PHONY : 169_Majority_Element
 
 # fast build rule for target.
-695_Max_Area_of_Island/fast:
-	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/build
-.PHONY : 695_Max_Area_of_Island/fast
+169_Majority_Element/fast:
+	$(MAKE) -f CMakeFiles/169_Majority_Element.dir/build.make CMakeFiles/169_Majority_Element.dir/build
+.PHONY : 169_Majority_Element/fast
 
-#=============================================================================
-# Target rules for targets named 283_Move_Zeroes
+array/169_Majority_Element.o: array/169_Majority_Element.cpp.o
 
-# Build rule for target.
-283_Move_Zeroes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 283_Move_Zeroes
-.PHONY : 283_Move_Zeroes
+.PHONY : array/169_Majority_Element.o
 
-# fast build rule for target.
-283_Move_Zeroes/fast:
-	$(MAKE) -f CMakeFiles/283_Move_Zeroes.dir/build.make CMakeFiles/283_Move_Zeroes.dir/build
-.PHONY : 283_Move_Zeroes/fast
+# target to build an object file
+array/169_Majority_Element.cpp.o:
+	$(MAKE) -f CMakeFiles/169_Majority_Element.dir/build.make CMakeFiles/169_Majority_Element.dir/array/169_Majority_Element.cpp.o
+.PHONY : array/169_Majority_Element.cpp.o
 
-#=============================================================================
-# Target rules for targets named 206_Reverse_Linked_List
+array/169_Majority_Element.i: array/169_Majority_Element.cpp.i
 
-# Build rule for target.
-206_Reverse_Linked_List: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 206_Reverse_Linked_List
-.PHONY : 206_Reverse_Linked_List
+.PHONY : array/169_Majority_Element.i
 
-# fast build rule for target.
-206_Reverse_Linked_List/fast:
-	$(MAKE) -f CMakeFiles/206_Reverse_Linked_List.dir/build.make CMakeFiles/206_Reverse_Linked_List.dir/build
-.PHONY : 206_Reverse_Linked_List/fast
+# target to preprocess a source file
+array/169_Majority_Element.cpp.i:
+	$(MAKE) -f CMakeFiles/169_Majority_Element.dir/build.make CMakeFiles/169_Majority_Element.dir/array/169_Majority_Element.cpp.i
+.PHONY : array/169_Majority_Element.cpp.i
+
+array/169_Majority_Element.s: array/169_Majority_Element.cpp.s
+
+.PHONY : array/169_Majority_Element.s
+
+# target to generate assembly for a file
+array/169_Majority_Element.cpp.s:
+	$(MAKE) -f CMakeFiles/169_Majority_Element.dir/build.make CMakeFiles/169_Majority_Element.dir/array/169_Majority_Element.cpp.s
+.PHONY : array/169_Majority_Element.cpp.s
 
 array/283_Move_Zeroes.o: array/283_Move_Zeroes.cpp.o
 
@@ -402,6 +455,33 @@ array/695_Max_Area_of_Island.cpp.s:
 	$(MAKE) -f CMakeFiles/695_Max_Area_of_Island.dir/build.make CMakeFiles/695_Max_Area_of_Island.dir/array/695_Max_Area_of_Island.cpp.s
 .PHONY : array/695_Max_Area_of_Island.cpp.s
 
+array/717_1-bit_and_2-bit_Characters.o: array/717_1-bit_and_2-bit_Characters.cpp.o
+
+.PHONY : array/717_1-bit_and_2-bit_Characters.o
+
+# target to build an object file
+array/717_1-bit_and_2-bit_Characters.cpp.o:
+	$(MAKE) -f CMakeFiles/717_1-bit_and_2-bit_Characters.dir/build.make CMakeFiles/717_1-bit_and_2-bit_Characters.dir/array/717_1-bit_and_2-bit_Characters.cpp.o
+.PHONY : array/717_1-bit_and_2-bit_Characters.cpp.o
+
+array/717_1-bit_and_2-bit_Characters.i: array/717_1-bit_and_2-bit_Characters.cpp.i
+
+.PHONY : array/717_1-bit_and_2-bit_Characters.i
+
+# target to preprocess a source file
+array/717_1-bit_and_2-bit_Characters.cpp.i:
+	$(MAKE) -f CMakeFiles/717_1-bit_and_2-bit_Characters.dir/build.make CMakeFiles/717_1-bit_and_2-bit_Characters.dir/array/717_1-bit_and_2-bit_Characters.cpp.i
+.PHONY : array/717_1-bit_and_2-bit_Characters.cpp.i
+
+array/717_1-bit_and_2-bit_Characters.s: array/717_1-bit_and_2-bit_Characters.cpp.s
+
+.PHONY : array/717_1-bit_and_2-bit_Characters.s
+
+# target to generate assembly for a file
+array/717_1-bit_and_2-bit_Characters.cpp.s:
+	$(MAKE) -f CMakeFiles/717_1-bit_and_2-bit_Characters.dir/build.make CMakeFiles/717_1-bit_and_2-bit_Characters.dir/array/717_1-bit_and_2-bit_Characters.cpp.s
+.PHONY : array/717_1-bit_and_2-bit_Characters.cpp.s
+
 array/766_Toeplitz_Matrix.o: array/766_Toeplitz_Matrix.cpp.o
 
 .PHONY : array/766_Toeplitz_Matrix.o
@@ -518,16 +598,21 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 92_Reverse_Linked_List_II"
 	@echo "... 561_array_partition1"
 	@echo "... list_node_test"
-	@echo "... 92_Reverse_Linked_List_II"
 	@echo "... 766_Toeplitz_Matrix"
 	@echo "... 566_Reshape_the_Matrix"
+	@echo "... 717_1-bit_and_2-bit_Characters"
+	@echo "... 695_Max_Area_of_Island"
+	@echo "... 206_Reverse_Linked_List"
+	@echo "... 283_Move_Zeroes"
 	@echo "... 448_Find_All_Numbers_Disappeared_in_an_Array"
 	@echo "... 485_Max_Consecutive_Ones"
-	@echo "... 695_Max_Area_of_Island"
-	@echo "... 283_Move_Zeroes"
-	@echo "... 206_Reverse_Linked_List"
+	@echo "... 169_Majority_Element"
+	@echo "... array/169_Majority_Element.o"
+	@echo "... array/169_Majority_Element.i"
+	@echo "... array/169_Majority_Element.s"
 	@echo "... array/283_Move_Zeroes.o"
 	@echo "... array/283_Move_Zeroes.i"
 	@echo "... array/283_Move_Zeroes.s"
@@ -546,6 +631,9 @@ help:
 	@echo "... array/695_Max_Area_of_Island.o"
 	@echo "... array/695_Max_Area_of_Island.i"
 	@echo "... array/695_Max_Area_of_Island.s"
+	@echo "... array/717_1-bit_and_2-bit_Characters.o"
+	@echo "... array/717_1-bit_and_2-bit_Characters.i"
+	@echo "... array/717_1-bit_and_2-bit_Characters.s"
 	@echo "... array/766_Toeplitz_Matrix.o"
 	@echo "... array/766_Toeplitz_Matrix.i"
 	@echo "... array/766_Toeplitz_Matrix.s"
