@@ -22,6 +22,9 @@ add_executable(169_Majority_Element array/169_Majority_Element.cpp)
 add_executable(167_Two_Sum_II_Input_array_is_sorted array/167_Two_Sum_II_Input_array_is_sorted.cpp)
 add_executable(217_Contains_Duplicate array/217_Contains_Duplicate.cpp)
 add_executable(697_Degree_of_an_Array array/697_Degree_of_an_Array.cpp)
+add_executable(661_Image_Smoother array/661_Image_Smoother.cpp)
+add_executable(268_Missing_Number array/268_Missing_Number.cpp)
+
 
 add_executable(list_node_test array/list_node_test.cpp)
 add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
