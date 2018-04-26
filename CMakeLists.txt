@@ -25,6 +25,8 @@ add_executable(697_Degree_of_an_Array array/697_Degree_of_an_Array.cpp)
 add_executable(661_Image_Smoother array/661_Image_Smoother.cpp)
 add_executable(268_Missing_Number array/268_Missing_Number.cpp)
 add_executable(628_Maximum_Product_of_Three_Numbers array/628_Maximum_Product_of_Three_Numbers.cpp)
+add_executable(746_Min_Cost_Climbing_Stairs array/746_Min_Cost_Climbing_Stairs.cpp)
+
 
 add_executable(list_node_test array/list_node_test.cpp)
 add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
