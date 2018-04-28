@@ -16,7 +16,11 @@
 #include <vector>
 
 using namespace std;
-
+/**
+ * This method has some problems!!!
+ * @param cost
+ * @return
+ */
 int minCostClimbingStairs(vector<int>& cost)
 {
     if(cost.size() < 3)
