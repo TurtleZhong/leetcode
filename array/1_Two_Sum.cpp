@@ -37,5 +37,8 @@ vector<int> twoSum(vector<int>& nums, int target)
 int main()
 {
     vector<int> nums({2, 7, 11, 15});
+    int target = 13;
+    vector<int> results = twoSum(nums, 13);
+    cout << nums[results[0]] << " + " << nums[results[1]] << " = " << target << endl;
     return 0;
 }
