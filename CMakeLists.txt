@@ -36,8 +36,8 @@ add_executable(119_Pascals_Triangle_II array/119_Pascals_Triangle_II.cpp)
 add_executable(35_Search_Insert_Position array/35_Search_Insert_Position.cpp)
 add_executable(1_Two_Sum array/1_Two_Sum.cpp)
 add_executable(643_Maximum_Average_Subarray_I array/643_Maximum_Average_Subarray_I.cpp)
-
-
+add_executable(26_Remove_Duplicates_from_Sorted_Array array/26_Remove_Duplicates_from_Sorted_Array.cpp)
+add_executable(219_Contains_Duplicate_II array/219_Contains_Duplicate_II.cpp)
 
 
 
