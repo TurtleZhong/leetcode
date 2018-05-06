@@ -38,7 +38,7 @@ add_executable(1_Two_Sum array/1_Two_Sum.cpp)
 add_executable(643_Maximum_Average_Subarray_I array/643_Maximum_Average_Subarray_I.cpp)
 add_executable(26_Remove_Duplicates_from_Sorted_Array array/26_Remove_Duplicates_from_Sorted_Array.cpp)
 add_executable(219_Contains_Duplicate_II array/219_Contains_Duplicate_II.cpp)
-
+add_executable(88_Merge_Sorted_Array array/88_Merge_Sorted_Array.cpp)
 
 
 add_executable(list_node_test array/list_node_test.cpp)
