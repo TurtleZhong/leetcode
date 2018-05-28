@@ -43,7 +43,9 @@ add_executable(605_Can_Place_Flowers array/605_Can_Place_Flowers.cpp)
 add_executable(alibaba_test array/alibaba_test.cpp)
 
 
-
+add_executable(657_Judge_Route_Circle string/657_Judge_Route_Circle.cpp)
+add_executable(344_Reverse_String string/344_Reverse_String.cpp)
+add_executable(557_Reverse_Words_in_a_String_III string/557_Reverse_Words_in_a_String_III.cpp)
 
 
 add_executable(list_node_test array/list_node_test.cpp)
