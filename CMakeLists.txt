@@ -6,6 +6,7 @@ include_directories(${PROJECT_SOURCE_DIR}/array)
 include_directories(${PROJECT_SOURCE_DIR}/binary_search)
 include_directories(${PROJECT_SOURCE_DIR}/linked_list)
 include_directories(${PROJECT_SOURCE_DIR}/string)
+include_directories(${PROJECT_SOURCE_DIR}/sort)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
@@ -41,6 +42,7 @@ add_executable(219_Contains_Duplicate_II array/219_Contains_Duplicate_II.cpp)
 add_executable(88_Merge_Sorted_Array array/88_Merge_Sorted_Array.cpp)
 add_executable(605_Can_Place_Flowers array/605_Can_Place_Flowers.cpp)
 add_executable(alibaba_test array/alibaba_test.cpp)
+add_executable(cainiao_test array/cainiao_test.cpp)
 
 
 add_executable(657_Judge_Route_Circle string/657_Judge_Route_Circle.cpp)
@@ -53,4 +55,7 @@ add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
 add_executable(92_Reverse_Linked_List_II linked_list/92_Reverse_Linked_List_II.cpp)
 
 
+add_executable(classical_binary_search binary_search/classical_binary_search.cpp)
 
+
+add_executable(bubbleSort sort/bubbleSort.cpp)
