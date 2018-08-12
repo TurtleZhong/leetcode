@@ -1,5 +1,12 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 2.8.1)
 project(leetcode)
+
+#find_package(Boost)
+find_package(Boost REQUIRED COMPONENTS)
+
+if(NOT Boost_FOUND)
+    message(FATAL_ERROR "Could not find boost!")
+endif()
 
 set(CMAKE_CXX_STANDARD 11)
 include_directories(${PROJECT_SOURCE_DIR}/array)
@@ -7,8 +14,10 @@ include_directories(${PROJECT_SOURCE_DIR}/binary_search)
 include_directories(${PROJECT_SOURCE_DIR}/linked_list)
 include_directories(${PROJECT_SOURCE_DIR}/string)
 include_directories(${PROJECT_SOURCE_DIR}/sort)
+include_directories(${PROJECT_SOURCE_DIR}/boost_thread)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${Boost_INCLUDE_DIRS})
 
 
 add_executable(561_array_partition1 array/561_array_partition1.cpp)
@@ -45,17 +54,38 @@ add_executable(alibaba_test array/alibaba_test.cpp)
 add_executable(cainiao_test array/cainiao_test.cpp)
 
 
+
 add_executable(657_Judge_Route_Circle string/657_Judge_Route_Circle.cpp)
 add_executable(344_Reverse_String string/344_Reverse_String.cpp)
 add_executable(557_Reverse_Words_in_a_String_III string/557_Reverse_Words_in_a_String_III.cpp)
 add_executable(520_Detect_Capital string/520_Detect_Capital.cpp)
+add_executable(find_how_many_words string/find_how_many_words.cpp)
+add_executable(reserve_string string/reserve_string.cpp)
+add_executable(find_first_one_only_once string/find_first_one_only_once.cpp)
 
-add_executable(list_node_test array/list_node_test.cpp)
-add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
-add_executable(92_Reverse_Linked_List_II linked_list/92_Reverse_Linked_List_II.cpp)
+#add_executable(list_node_test array/list_node_test.cpp)
+#add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
+#add_executable(92_Reverse_Linked_List_II linked_list/92_Reverse_Linked_List_II.cpp)
 
 
 add_executable(classical_binary_search binary_search/classical_binary_search.cpp)
 
 
 add_executable(bubbleSort sort/bubbleSort.cpp)
+add_executable(mergeSort sort/mergeSort.cpp)
+add_executable(mergeSortedArray sort/mergeSortedArray.cpp)
+add_executable(quickSort sort/quickSort.cpp)
+add_executable(findKthElement sort/findKthElement.cpp)
+
+
+set(LIBS
+        ${Boost_LIBRARIES}
+        -lboost_system
+        -lboost_thread
+        )
+
+add_executable(boost_thread boost_thread/boost_thread.cpp)
+target_link_libraries(boost_thread ${LIBS})
+
+add_executable(fusion_demo boost_thread/fusion_demo.cpp)
+target_link_libraries(fusion_demo ${LIBS})
