@@ -15,9 +15,11 @@ include_directories(${PROJECT_SOURCE_DIR}/linked_list)
 include_directories(${PROJECT_SOURCE_DIR}/string)
 include_directories(${PROJECT_SOURCE_DIR}/sort)
 include_directories(${PROJECT_SOURCE_DIR}/boost_thread)
+include_directories(${PROJECT_SOURCE_DIR}/pick_one)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${Boost_INCLUDE_DIRS})
+include_directories("usr/include/eigen3")
 
 
 add_executable(561_array_partition1 array/561_array_partition1.cpp)
@@ -52,6 +54,9 @@ add_executable(88_Merge_Sorted_Array array/88_Merge_Sorted_Array.cpp)
 add_executable(605_Can_Place_Flowers array/605_Can_Place_Flowers.cpp)
 add_executable(alibaba_test array/alibaba_test.cpp)
 add_executable(cainiao_test array/cainiao_test.cpp)
+add_executable(qinge_ali array/qinge_ali.cpp)
+add_executable(jd1 array/jd1.cpp)
+add_executable(hsp array/hsp.cpp)
 
 
 
@@ -62,6 +67,7 @@ add_executable(520_Detect_Capital string/520_Detect_Capital.cpp)
 add_executable(find_how_many_words string/find_how_many_words.cpp)
 add_executable(reserve_string string/reserve_string.cpp)
 add_executable(find_first_one_only_once string/find_first_one_only_once.cpp)
+add_executable(huiwen string/huiwen.cpp)
 
 #add_executable(list_node_test array/list_node_test.cpp)
 #add_executable(206_Reverse_Linked_List linked_list/206_Reverse_Linked_List.cpp)
@@ -78,6 +84,10 @@ add_executable(quickSort sort/quickSort.cpp)
 add_executable(findKthElement sort/findKthElement.cpp)
 
 
+
+
+
+
 set(LIBS
         ${Boost_LIBRARIES}
         -lboost_system
@@ -89,3 +99,6 @@ target_link_libraries(boost_thread ${LIBS})
 
 add_executable(fusion_demo boost_thread/fusion_demo.cpp)
 target_link_libraries(fusion_demo ${LIBS})
+
+
+add_executable(summary_ranges-228 pick_one/summary_ranges-228.cpp)
