@@ -103,3 +103,4 @@ target_link_libraries(fusion_demo ${LIBS})
 
 add_executable(summary_ranges-228 pick_one/summary_ranges-228.cpp)
 add_executable(find_and_replace_pattern pick_one/find_and_replace_pattern-890.cpp)
+add_executable(spiral_matrixII-59 pick_one/spiral_matrixII-59.cpp)
